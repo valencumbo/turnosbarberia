@@ -163,19 +163,25 @@ formData.servicio === s.nombre
 </div>
 </section>
 
-<section className="space-y-4">
-<h2 className="text-xl font-bold mb-4 flex items-center">
-<span className="text-yellow-500 mr-2">03.</span> Fecha y Hora
-</h2>
-<div className="space-y-4">
-<input 
-type="date" required value={formData.fecha}
-min={new Date().toISOString().split('T')[0]} 
-className="w-full max-w-full bg-zinc-900 border border-zinc-800 p-4 rounded-2xl focus:outline-none focus:border-yellow-500 transition-all text-white disabled:opacity-50 box-border"
-style={{ colorScheme: 'dark' }}
-onChange={handleDateChange}
-disabled={!selectedBarber} 
-/>
+<section className="space-y-4 max-w-full box-border overflow-x-hidden">
+    <h2 className="text-xl font-bold mb-4 flex items-center">
+        <span className="text-yellow-500 mr-2">03.</span> Fecha y Hora
+    </h2>
+
+    <div className="w-full max-w-full box-border">
+        <input 
+            type="date" 
+            required 
+            value={formData.fecha}
+            min={new Date().toISOString().split('T')[0]} 
+            className="w-full max-w-full bg-zinc-900 border border-zinc-800 p-4 rounded-2xl focus:outline-none focus:border-yellow-500 transition-all text-white disabled:opacity-50 box-border appearance-none opacity-100!"
+            style={{ 
+                colorScheme: 'dark',
+                WebkitAppearance: 'none',
+            }}
+            onChange={handleDateChange}
+            disabled={!selectedBarber} 
+        />
 
 {formData.fecha && selectedBarber && (
 <div className="grid grid-cols-3 gap-2 mt-2">
