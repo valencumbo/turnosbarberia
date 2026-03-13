@@ -143,7 +143,7 @@ return (
 <div className="bg-zinc-950 min-h-screen text-white font-sans pb-10">
 <nav className="bg-zinc-900 p-6 flex justify-between items-center border-b border-zinc-800">
 <div>
-<h1 className="text-2xl font-black tracking-tighter italic">4299 <span className="text-yellow-500">ADMIN</span></h1>
+<h1 className="text-2xl font-black tracking-tighter italic text-red-500">K A <span className="text-white">ADMIN</span></h1>
 </div>
 <button onClick={handleLogout} className="text-sm text-zinc-400 hover:text-red-500 transition-colors font-bold">
 Cerrar Sesión

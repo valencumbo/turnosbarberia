@@ -109,7 +109,7 @@ toast.error("Hubo un error de conexión. Intentá de nuevo.")
 return (
 <div className="bg-zinc-950 min-h-screen text-white font-sans pb-10">
 <header className="bg-zinc-900 pt-12 pb-8 px-6 rounded-b-[3rem] shadow-2xl border-b border-zinc-800 text-center">
-<h1 className="text-4xl font-black tracking-tighter italic">4299 <span className="text-yellow-500">BARBER</span></h1>
+<h1 className="text-4xl font-black tracking-tighter italic">BARBERIA <span className="text-red-500">K A</span></h1>
 <p className="text-zinc-500 text-sm mt-2 uppercase tracking-widest">Reserva tu turno</p>
 </header>
 

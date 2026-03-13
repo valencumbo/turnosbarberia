@@ -31,7 +31,7 @@ return (
 <div className="w-full max-w-md bg-zinc-900 p-8 rounded-4x1 shadow-2xl border border-zinc-800">
 <div className="text-center mb-8">
 <h1 className="text-3xl font-black tracking-tighter italic">
-4299 <span className="text-yellow-500">BARBER</span>
+BARBERIA <span className="text-red-500">K A</span>
 </h1>
 <p className="text-zinc-500 text-sm mt-2 uppercase tracking-widest">
 Acceso Exclusivo Staff
