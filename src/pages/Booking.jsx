@@ -171,7 +171,7 @@ formData.servicio === s.nombre
 <input 
 type="date" required value={formData.fecha}
 min={new Date().toISOString().split('T')[0]} 
-className="w-full bg-zinc-900 border border-zinc-800 p-4 rounded-2xl focus:outline-none focus:border-yellow-500 transition-all text-white disabled:opacity-50"
+className="w-full max-w-full bg-zinc-900 border border-zinc-800 p-4 rounded-2xl focus:outline-none focus:border-yellow-500 transition-all text-white disabled:opacity-50 box-border"
 style={{ colorScheme: 'dark' }}
 onChange={handleDateChange}
 disabled={!selectedBarber} 
